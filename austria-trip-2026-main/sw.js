@@ -5,15 +5,15 @@
  * page needs is precached on first visit.
  *
  * Two strategies, on purpose:
- *   shell + art  cache-first, because they rarely change and must open instantly
- *   data/*.json  network-first, because the sync job rewrites them 3x a day
- *                and a stale expense total is worse than a slow one
+ * shell + art cache-first, because they rarely change and must open instantly
+ * data/*.json network-first, because the sync job rewrites them 3x a day
+ * and a stale expense total is worse than a slow one
  *
  * Bump CACHE when the shell changes; old caches are dropped on activate.
  */
-const CACHE = "grand-circle-v4";
+const CACHE = "austria-trip-v1";
 
-const DAY_NUMS = ["05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20"];
+const DAY_NUMS = ["17","18","19","20","21","22","23","24","25","26","27","28","29"];
 
 const SHELL = [
   "./",
