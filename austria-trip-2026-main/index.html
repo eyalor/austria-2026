@@ -883,7 +883,7 @@ function renderFlights(){
 function renderEmergency(){
   if (!SOS) return `<p class="empty">לא נטען מידע חירום.</p>`;
   let html = `<div class="page-h"><h2>🆘 חירום ומידע חיוני</h2><p>${esc(SOS.verify)}</p></div>`;
-  html += `<div class="sos"><a class="num" href="tel:911">911</a><p>${esc(SOS.sos.d)}</p></div>`;
+  html += `<div class="sos"><a class="num" href="tel:112">112</a><p>${esc(SOS.sos.d)}</p></div>`;
 
   html += `<div class="sec"><h3>🏥 לפי אזור <span class="tag t-optional">${SOS.regions.length}</span></h3>`;
   SOS.regions.forEach(r => {
@@ -1003,7 +1003,7 @@ function buildPrintable(){
     h += `</div>`;
   }
   if (SOS){
-    h += `<div class="p-sec"><h2>חירום · חייגו 911</h2>`;
+    h += `<div class="p-sec"><h2>חירום · חייגו 112</h2>`;
     SOS.regions.forEach(r => {
       h += `<div class="p-day"><h3>${esc(r.area)} — ${esc(r.park.tel)}</h3>
         <p class="p-meta">${esc(r.med)}</p></div>`;
