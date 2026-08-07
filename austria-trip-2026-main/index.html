@@ -657,9 +657,9 @@ function renderDay(day){
   const pts = day.stops.map(s => s.m).filter(Boolean);
   const route = mapRoute(pts);
   html += `<div class="dayacts">
-      ${route ? `<a class="mbtn go" href="${route}" target="_blank" rel="noopener">🧭 מסלול היום ב‑Maps</a>` : ""}
-      ${day.sleep ? `<a class="mbtn" href="${mapNav(day.sleep.name)}" target="_blank" rel="noopener">🛏️ נווט ללינה</a>` : ""}
-    </div>`;
+ ${route ? `<a class="mbtn go" href="${route}" target="_blank" rel="noopener">🧭 מסלול היום ב‑Maps</a>` : ""}
+ ${day.sleep ? `<a class="mbtn" href="${mapNav(day.sleep.name)}" target="_blank" rel="noopener">🛏️ נווט ללינה: ${esc(day.sleep.name)}</a>` : ""}
+ </div>`;
 
   if (day.hot && day.hot.length)
     html += `<div class="hot"><h3>🔥 המלצות חמות ליום</h3><ul>${day.hot.map(h => `<li>${esc(h)}</li>`).join("")}</ul></div>`;
