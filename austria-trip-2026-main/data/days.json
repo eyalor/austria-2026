@@ -60,21 +60,21 @@
       "iso": "2026-08-18",
       "date": "18 באוג'",
       "dow": "ג'",
-      "title": "הר המכשפות ונסיעה לפלאכאו",
-      "drive": "~1.5 שע'",
+      "title": "הר המכשפות ונסיעה לראמזאו",
+      "drive": "~3.5 שע'",
       "sleep": {
-        "name": "OFENTÜRL alpine living",
+        "name": "Haus Hof, Ramsau am Dachstein",
         "st": "ok"
       },
-      "lat": 47.34,
-      "lon": 13.39,
-      "place": "Flachau",
+      "lat": 47.42,
+      "lon": 13.65,
+      "place": "Ramsau am Dachstein",
       "climate": { "max": 22, "min": 12 },
       "kind": "drive",
       "wear": "נוח לנסיעה והליכה קלה",
       "hot": [
         "הר המכשפות",
-        "נסיעה לדירה וסופר"
+        "נסיעה לראמזאו וסופר"
       ],
       "stops": [
         {
@@ -96,19 +96,19 @@
         {
           "t": "אחה״צ",
           "i": "🚗",
-          "n": "נסיעה לפלאכאו",
-          "d": "כשעה וחצי נסיעה, כולל עצירה להצטיידות בסופר.",
+          "n": "נסיעה לראמזאו",
+          "d": "נסיעה לאזור ראמזאו אם דאכשטיין, כולל עצירה להצטיידות בסופר.",
           "hl": [],
-          "m": "Flachau Austria"
+          "m": "Ramsau am Dachstein"
         },
         {
           "t": "ערב",
           "i": "🛏️",
-          "n": "OFENTÜRL alpine living",
+          "n": "Haus Hof",
           "booked": true,
-          "d": "ארוחת ערב משפחתית בדירה.",
+          "d": "התמקמות במקום הלינה החדש וארוחת ערב.",
           "hl": [],
-          "m": "Flachau Austria"
+          "m": "Haus Hof Ramsau am Dachstein"
         }
       ],
       "img": "images/day-2026-08-18.webp",
@@ -121,7 +121,7 @@
       "title": "פארק הופסילנד וקניון טלבך",
       "drive": "קצר",
       "sleep": {
-        "name": "OFENTÜRL alpine living",
+        "name": "Haus Hof, Ramsau am Dachstein",
         "st": "ok"
       },
       "lat": 47.39,
@@ -165,7 +165,7 @@
       "title": "קניון סילברקאר",
       "drive": "קצר",
       "sleep": {
-        "name": "OFENTÜRL alpine living",
+        "name": "Haus Hof, Ramsau am Dachstein",
         "st": "ok"
       },
       "lat": 47.42,
@@ -197,7 +197,7 @@
       "title": "נקיק למר ומופע נשרים",
       "drive": "בינוני",
       "sleep": {
-        "name": "OFENTÜRL alpine living",
+        "name": "Haus Hof, Ramsau am Dachstein",
         "st": "ok"
       },
       "lat": 47.59,
@@ -227,7 +227,7 @@
       "iso": "2026-08-22",
       "date": "22 באוג'",
       "dow": "שבת",
-      "title": "הר הרוחות ואקסטרים",
+      "title": "מעבר לפלאכאו ואקסטרים",
       "drive": "קצר",
       "sleep": {
         "name": "OFENTÜRL alpine living",
@@ -247,6 +247,14 @@
       "stops": [
         {
           "t": "בוקר",
+          "i": "🧳",
+          "n": "צ'ק אאוט ונסיעה לפלאכאו",
+          "d": "התארגנות, עזיבת הדירה בראמזאו ויציאה לכיוון הפארקים ולדירה הבאה.",
+          "hl": [],
+          "m": "Geisterberg"
+        },
+        {
+          "t": "לפני הצהריים",
           "i": "👻",
           "n": "הר הרוחות (Geisterberg)",
           "d": "פארק חוויות לילדים בראש ההר.",
@@ -268,6 +276,14 @@
           "d": "מגלשות לאקי פליצר ואומגת zipline studerzinkel.",
           "hl": [],
           "m": "Lucky Flitzer"
+        },
+        {
+          "t": "ערב",
+          "i": "🛏️",
+          "n": "OFENTÜRL alpine living",
+          "d": "התמקמות בדירה החדשה בפלאכאו.",
+          "hl": [],
+          "m": "Flachau Austria"
         }
       ],
       "img": "images/day-2026-08-22.webp",
