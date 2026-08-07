@@ -1056,7 +1056,7 @@ view.addEventListener("change", e => {
 
 /* ---------------- drawer tools ---------------- */
 $("#routeBtn").addEventListener("click", () => {
-  const stays = DATA.days.map(d => d.sleep && d.sleep.name).filter(Boolean);
+  const stays = DATA.days.map(d => d.place).filter(Boolean);
   const url = mapRoute([...new Set(stays)]);
   if (url) window.open(url, "_blank", "noopener");
   setDrawer(false);
