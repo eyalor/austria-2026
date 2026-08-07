@@ -3,7 +3,7 @@ The Oralavers &amp; Lucyflitzer traveling Austria
 # אוסטריה 2026 — אתר הטיול
 
 אתר חי לטיול משפחתי לאוסטריה, 17–29 באוגוסט 2026.
-**[https://github.com/eyalor/austria-2026/austria-trip-2026-main]**
+**[https://eyalor.github.io/austria-2026/austria-trip-2026-main/]**
 
 ---
 
