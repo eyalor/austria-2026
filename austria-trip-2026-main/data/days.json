@@ -393,4 +393,145 @@
           "m": "Krimmler Wasserfalle"
         }
       ],
-      "img": "images
+      "img": "images/day-2026-08-25.webp",
+      "imgAlt": "מפלי קרימל"
+    },
+    {
+      "iso": "2026-08-26",
+      "date": "26 באוג'",
+      "dow": "ד'",
+      "title": "קרחון דאכשטיין",
+      "drive": "בינוני",
+      "sleep": {
+        "name": "OFENTÜRL alpine living",
+        "st": "ok"
+      },
+      "lat": 47.47,
+      "lon": 13.62,
+      "place": "Dachstein",
+      "climate": { "max": 10, "min": 0 },
+      "kind": "hike-alpine",
+      "wear": "ביגוד חורפי וציוד לקרחון",
+      "hot": [
+        "קרחון דאכשטיין"
+      ],
+      "stops": [
+        {
+          "t": "כל היום",
+          "i": "❄️",
+          "n": "קרחון דאכשטיין",
+          "d": "עלייה ברכבל לקרחון, אפשרות לשלב את תצפית 5 האצבעות, מערת הקרח או הגשר התלוי.",
+          "hl": [],
+          "m": "Dachstein"
+        }
+      ],
+      "img": "images/day-2026-08-26.webp",
+      "imgAlt": "קרחון דאכשטיין"
+    },
+    {
+      "iso": "2026-08-27",
+      "date": "27 באוג'",
+      "dow": "ה'",
+      "title": "מסלול פלורי",
+      "drive": "קצר",
+      "sleep": {
+        "name": "OFENTÜRL alpine living",
+        "st": "ok"
+      },
+      "lat": 47.34,
+      "lon": 13.39,
+      "place": "Flachau",
+      "climate": { "max": 22, "min": 12 },
+      "kind": "hike-alpine",
+      "wear": "בגדי הליכה קלים",
+      "hot": [
+        "מסלול פלורי"
+      ],
+      "stops": [
+        {
+          "t": "בוקר",
+          "i": "🥾",
+          "n": "מסלול פלורי (Flori's Erlebnispfad)",
+          "d": "מסלול חווייתי למשפחות באזור פלאכאו.",
+          "hl": [],
+          "m": "Flori's Erlebnispfad"
+        }
+      ],
+      "img": "images/day-2026-08-27.webp",
+      "imgAlt": "מסלול פלורי"
+    },
+    {
+      "iso": "2026-08-28",
+      "date": "28 באוג'",
+      "dow": "ו'",
+      "title": "יום השלמות וזמן חופשי",
+      "drive": "משתנה",
+      "sleep": {
+        "name": "OFENTÜRL alpine living",
+        "st": "ok"
+      },
+      "lat": 47.34,
+      "lon": 13.39,
+      "place": "Flachau",
+      "climate": { "max": 22, "min": 12 },
+      "kind": "city-walk",
+      "wear": "נוח להליכה",
+      "hot": [
+        "יום פתוח לבחירה"
+      ],
+      "stops": [
+        {
+          "t": "כל היום",
+          "i": "🦌",
+          "n": "אופציות להשלמה",
+          "d": "ניתן לשלב ביום זה את אגם סנט גיליגן, פארק חיות הבר אונטרטאוארן או אגם יגרזה.",
+          "hl": [],
+          "m": "Flachau"
+        }
+      ],
+      "img": "images/day-2026-08-28.webp",
+      "imgAlt": "זמן חופשי"
+    },
+    {
+      "iso": "2026-08-29",
+      "date": "29 באוג'",
+      "dow": "שבת",
+      "title": "טיסה חזרה",
+      "drive": "נסיעה לוינה",
+      "sleep": {
+        "name": "טיסה",
+        "st": "ok"
+      },
+      "lat": 48.11,
+      "lon": 16.56,
+      "place": "Vienna Airport",
+      "climate": { "max": 25, "min": 15 },
+      "kind": "travel",
+      "wear": "בגדים נוחים לטיסה",
+      "hot": [
+        "החזרת רכב",
+        "טיסה לנתב״ג"
+      ],
+      "stops": [
+        {
+          "t": "אחה״צ",
+          "i": "🚗",
+          "n": "החזרת רכב בשדה",
+          "d": "נסיעה חזרה לכיוון שדה התעופה בוינה והחזרת הרכב בחברת Sixt.",
+          "hl": [],
+          "m": "Vienna International Airport"
+        },
+        {
+          "t": "23:20",
+          "i": "✈️",
+          "n": "טיסה לנתב״ג",
+          "d": "טיסת אוסטריין איירליינס חזרה. נחיתה בישראל בלילה בשעה 00:45.",
+          "hl": [],
+          "m": "Vienna International Airport"
+        }
+      ],
+      "img": "images/day-2026-08-29.webp",
+      "imgAlt": "טיסה חזרה"
+    }
+  ]
+}
