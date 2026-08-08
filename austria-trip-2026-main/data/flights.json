@@ -83,13 +83,13 @@
             "code": "VIE",
             "name": "וינה",
             "terminal": "3",
-            "time": "00:45"
+            "time": "00:30"
           },
           "to": {
             "code": "TLV",
             "name": "בן גוריון",
             "terminal": "3",
-            "time": "05:15"
+            "time": "04:55"
           },
           "duration": "3:30",
           "cls": "Economy",
