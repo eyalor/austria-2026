@@ -11,7 +11,7 @@
  *
  * Bump CACHE when the shell changes; old caches are dropped on activate.
  */
-const CACHE = "austria-trip-v1";
+const CACHE = "austria-trip-v2";
 
 const DAY_NUMS = ["17","18","19","20","21","22","23","24","25","26","27","28","29"];
 
