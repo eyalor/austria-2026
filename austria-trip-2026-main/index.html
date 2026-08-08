@@ -15,7 +15,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Grand Circle">
+<meta name="apple-mobile-web-app-title" content="Austria 2026">
 <style>
   /* ---------- theme ---------- */
   :root, :root[data-theme="dark"]{
@@ -415,14 +415,14 @@
 <a href="#view" class="skip">דלג לתוכן</a>
 
 <div class="topbtns">
-  <button class="logo" id="logoBtn" aria-label="פתח תפריט" aria-expanded="false" aria-controls="drawer">🏜️</button>
+  <button class="logo" id="logoBtn" aria-label="פתח תפריט" aria-expanded="false" aria-controls="drawer">⛰️</button>
   <button class="iconbtn" id="themeBtn" aria-label="החלף בין מצב כהה לבהיר" title="מצב תצוגה">🌗</button>
 </div>
 
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-hidden="true">
   <div class="drawer-h">
-    <b>🏜️ Austria 2026</b>
+    <b>⛰️ Austria 2026</b>
     <span>17-30 באוגוסט משפחות אורן וזסלבר</span>
   </div>
   <nav aria-label="ניווט ראשי">
@@ -444,7 +444,7 @@
 </aside>
 
 <header class="top"><div class="top-in">
-  <h1 id="tripTitle">🚗 Yosemite ו‑Grand Circle</h1>
+  <h1 id="tripTitle">⛰️ Austria 2026 - Oren & Zaslaver</h1>
   <p id="tripSub"></p>
   <div class="top-facts" id="tripFacts"></div>
 </div></header>
@@ -1062,7 +1062,7 @@ $("#routeBtn").addEventListener("click", () => {
   setDrawer(false);
 });
 $("#shareBtn").addEventListener("click", async () => {
-  const data = { title: "Grand Circle 2026", text: "המסלול שלנו לאוגוסט", url: location.href };
+  const data = { title: "Austria 2026", text: "המסלול שלנו לאוגוסט", url: location.href };
   try {
     if (navigator.share) await navigator.share(data);
     else { await navigator.clipboard.writeText(location.href); alert("הקישור הועתק"); }
