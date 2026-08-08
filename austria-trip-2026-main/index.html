@@ -409,6 +409,8 @@
     a{color:#000; text-decoration:none}
   }
   #printable{display:none}
+  .stop-note-input { width: 100%; box-sizing: border-box; margin-top: 10px; padding: 8px 12px; border: 1px dashed var(--line); border-radius: 8px; background: var(--bg-1); color: var(--text); font-family: inherit; font-size: 0.95rem; resize: vertical; min-height: 50px; }
+.stop-note-input:focus { outline: none; border-color: #5bb3d9; background: var(--bg); }
 </style>
 </head>
 <body>
@@ -683,6 +685,7 @@ function renderDay(day){
           <span class="place">${esc(s.m)}</span>
           <a class="mbtn go" href="${mapNav(s.m)}" target="_blank" rel="noopener">🧭 נווט</a>
           <a class="mbtn" href="${mapSearch(s.m)}" target="_blank" rel="noopener">מפה</a></div>` : ""}
+        <textarea class="stop-note-input" data-key="${day.iso + '|' + s.n}" placeholder="📝 הערות אישיות לנקודה זו (נשמר במכשיר)..." oninput="saveStopNote(this)">${esc(JSON.parse(localStorage.getItem('tripNotes') || '{}')[day.iso + '|' + s.n] || '')}</textarea>
       </div></div></article>`;
   });
   if (day.food) html += `<div class="food">🍽️ ${day.food}</div>`;
@@ -1193,6 +1196,11 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js")
       .then(reg => reg.update())
       .catch(() => {}));
+}
+function saveStopNote(el) {
+  const notes = JSON.parse(localStorage.getItem("tripNotes") || "{}");
+  notes[el.getAttribute("data-key")] = el.value;
+  localStorage.setItem("tripNotes", JSON.stringify(notes));
 }
 </script>
 </body>
