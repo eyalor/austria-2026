@@ -19,7 +19,7 @@
 <style>
   /* ---------- theme ---------- */
   :root, :root[data-theme="dark"]{
-    --bg:#12100f; --bg-2:#191614; --card:#1d1917; --card-2:#241f1c;
+    --bg:#12100f; --bg-2:#131c26; --card:#1d1917; --card-2:#241f1c;
     --ink:#efe8e0; --ink-2:#cfc5ba; --muted:#968b80; --line:#332c27; --line-2:#443a33;
     --a:#e8734a; --a-soft:#2a1a13; --a-line:#5c2c1a; --a-strong:#ff9066;
     --b:#4fb9a1; --b-soft:#14282a; --b-line:#235049;
@@ -32,7 +32,7 @@
   }
   /* High-contrast daylight palette — the dark theme is unreadable in desert sun */
   :root[data-theme="light"]{
-    --bg:#f7f3ec; --bg-2:#fffdf9; --card:#ffffff; --card-2:#f3ede3;
+    --bg:#f7f3ec; --bg-2:#eaf4fc; --card:#ffffff; --card-2:#f3ede3;
     --ink:#1d1815; --ink-2:#463c33; --muted:#6d6157; --line:#e2d8c9; --line-2:#cfc2ae;
     --a:#b4441c; --a-soft:#fdece4; --a-line:#efc4ad; --a-strong:#8f3413;
     --b:#166b59; --b-soft:#e2f2ed; --b-line:#a9d6c9;
@@ -57,13 +57,13 @@
 
   /* ---------- header, logo, theme switch ---------- */
   header.top{position:relative;
-    background:radial-gradient(120% 140% at 15% 0%, #7d3a20 0%, transparent 60%),
-      linear-gradient(140deg,#3a1c12,#1a1110 70%);
+ background:radial-gradient(120% 140% at 15% 0%, #1a4a6b 0%, transparent 60%),
+ linear-gradient(140deg,#0f273d,#0a151f 70%);
     border-bottom:1px solid var(--line);
     padding:calc(20px + env(safe-area-inset-top)) 16px 22px}
   :root[data-theme="light"] header.top{
-    background:radial-gradient(120% 140% at 15% 0%, #f5c9a8 0%, transparent 62%),
-      linear-gradient(140deg,#fbe6d5,#f7f3ec 72%)}
+    background:radial-gradient(120% 140% at 15% 0%, #bde1f2 0%, transparent 62%),
+ linear-gradient(140deg,#dcf0fa,#f7f3ec 72%)}
   .top-in{max-width:980px; margin:0 auto; padding-inline-start:108px}
   header.top h1{margin:0 0 4px; font-size:1.5rem; letter-spacing:-.01em; color:#fff}
   header.top p{margin:0; color:rgba(255,255,255,.82); font-size:.9rem}
