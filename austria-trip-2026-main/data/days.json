@@ -258,7 +258,7 @@
             "💰 חנייה: חינם. כניסה: כ-19 € למשפחת אורן (מבוגר: 4.90€, ילדים בני 7,9: 3€, תאומים חינם).",
             "📍 מיקום חניון: Silberkarklamm Parkplatz, Silberkardamm, 8972 Ramsau am Dachstein"
           ],
-          "m": "Silberkarklamm"
+          "m": "Silberkarklamm Parkplatz, Silberkardamm, 8972 Ramsau am Dachstein"
         },
         {
           "t": "12:30-16:00",
@@ -269,7 +269,7 @@
             "💰 כניסה (למשפחת אורן): כ-25.50 € (מבוגר: 6€, ילד: 3.50€) + כ-3 € חניה יומית.",
             "📍 מיקום חניון: Parkplatz Rittisberg / Ramsau Beach, Schildlehen 79, 8972 Ramsau"
           ],
-          "m": "Ramsau Beach"
+          "m": "Parkplatz Rittisberg / Ramsau Beach, Schildlehen 79, 8972 Ramsau am Dachstein"
         },
         {
           "t": "16:00-17:30",
@@ -280,7 +280,7 @@
             "💰 עלות (סיבוב גלישה אחד): כ-35 € למשפחת אורן (מבוגר: 8.50€, ילד: 6€).",
             "💵 סך הכל ליום כולו למשפחת אורן: כ-44.50 € עד 79.50 €."
           ],
-          "m": "Rittisberg Coaster"
+          "m": "Rittisberg Coaster, Schildlehen 79, 8972 Ramsau am Dachstein"
         },
         {
           "t": "18:00 ואילך",
@@ -481,7 +481,7 @@
         {
           "t": "בוקר",
           "i": "⛏️",
-          "n": "מכרות המלח",
+          "n": "מכרות מלח",
           "d": "סיור מתחת לאדמה (קר במכרה - להביא שכבה חמה).",
           "hl": [],
           "m": "Salzwelten"
